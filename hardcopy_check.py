@@ -3,7 +3,9 @@
 """
   Author:  Jim Hardesty
 
-  This script helps with hardcopy analysis
+  This script helps with hardcopy analysis.
+  
+  It gathers the necessary information to make hardcopy analysis easier.
 
 """
 
