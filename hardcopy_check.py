@@ -11,7 +11,7 @@
 
 
 import sys, getopt
-sys.path.append("/afs/btv/data/amslibs/bin/binpy")
+sys.path.append("/afs/data/bin/binpy")
 import os
 import DB2Queries
 import types
@@ -109,7 +109,7 @@ def main(argv):
     
     master_layer_list = []
 
-    item_iter = iter(premap_hardcopy_out_list_contents)
+    item_iter = iter(premap_hardcopy_out_list_contents)     # make premap_hardcopy_out_list_contents iterable
 
     ordered_flag = "not_set"
     chip_count = 0
@@ -179,49 +179,4 @@ def main(argv):
 if __name__ == '__main__':
 
     main(sys.argv[1:])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
